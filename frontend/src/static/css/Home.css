@@ -1,0 +1,114 @@
+.home-wrap {
+    min-height: 100vh;
+    background-color: rgb(19, 20, 20);
+    color: white
+}
+
+.market-data {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.market-nav {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 85%;
+  }
+
+td, th {
+    border-bottom: 2px solid rgb(73, 72, 72);
+    text-align: left;
+    padding: 10px;
+  }
+
+.coin-market-search-input {
+    background-color: rgb(52, 51, 51);
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    padding: 10px;
+    color: white;
+    transition: border 0.2s ease-in-out;
+    height: 100%;
+    width: 100%;
+}
+
+.coin-market-search-input:focus {
+    outline: none;
+}
+
+.coin-market-input-wrap-1 {
+    display: flex;
+    height: 35px;
+    align-items: center;
+    width: 200px;
+}
+
+
+.coin-market-icons {
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 0px 8px 8px 0px;
+    padding: 0px 10px;
+}
+
+.coin-market-trade-but {
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    font-family: "Poppins";
+    font-size: 16px;
+    background-color: rgb(96, 159, 180);
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-market-trade-but:hover {
+    filter: brightness(0.7);
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+
+
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 860px) {
+    table {
+        width: 92%
+    }
+}
+
+@media screen and (max-width: 428px) {
+
+}

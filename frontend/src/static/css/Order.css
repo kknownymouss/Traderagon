@@ -1,0 +1,23 @@
+.order-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 85%
+}
+
+.order-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0px;
+    border-top: 2px solid darkgrey
+}
+
+
+.buy-order {
+    color: rgb(109, 229, 109)
+}
+
+.sell-order {
+    color: lightcoral
+}

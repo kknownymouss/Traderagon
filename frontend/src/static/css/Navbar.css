@@ -1,0 +1,52 @@
+.login-navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    justify-content: space-between;
+    background: transparent;
+    backdrop-filter: blur(2px);
+    color: white;
+}
+
+.login-navbar-title {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.login-navbar-link {
+    color: darkgray;
+    font-size: 18px;
+    margin-left: 30px;
+    transition: color 0.2s ease-in-out;
+    user-select: none;
+}
+
+.login-navbar-link:hover {
+    color: white
+}
+
+
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    .login-navbar {
+        padding: 30px 15px 20px 10px;
+        margin-bottom: 20px;
+    }
+    .login-navbar-title {
+        font-size: 14px;
+    }
+    .login-navbar-link {
+        color: darkgray;
+        font-size: 18px;
+        margin-left: 0px;
+        transition: color 0.2s ease-in-out;
+        user-select: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+}

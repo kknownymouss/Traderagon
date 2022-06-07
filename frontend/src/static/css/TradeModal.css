@@ -1,0 +1,135 @@
+.trade-modal-div {
+    display: "flex";
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+.trade-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.wallet-options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+option, select {
+    font-size: 16px;
+    padding: 5px;
+    background-color: rgb(52, 51, 51);
+    border: 2px solid darkgrey;
+    color: white;
+    border-radius: 8px;
+}
+
+.trade-modal-form-input {
+    background-color: rgb(52, 51, 51);
+    border: 3px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    padding: 3px;
+    color: white;
+    transition: border 0.2s ease-in-out;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+.trade-modal-form-input:focus {
+    outline: none
+}
+
+.modal-buy-button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: rgb(43, 152, 43);
+    font-family: 'Poppins';
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    width: 50%;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-sell-button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: rgb(220, 81, 81);
+    font-family: 'Poppins';
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    width: 50%;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-disabled-button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: rgb(91, 85, 85);
+    font-family: 'Poppins';
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    width: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+.modal-sell-button:hover {
+    filter: brightness(0.7);
+}
+
+.modal-buy-button:hover {
+    filter: brightness(0.7);
+}
+
+@keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    animation: rotating 1s linear infinite;
+}
+
+
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    option, select {
+        font-size: 14px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .trade-modal-form-input {
+        font-size: 14px;
+        width: 130px
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+}

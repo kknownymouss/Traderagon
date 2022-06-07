@@ -1,0 +1,205 @@
+.wallets-wrap {
+    min-height: 100vh;
+    background-color: rgb(19, 20, 20);
+    color: white
+}
+
+.available-wallets {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    padding: 0px 60px;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+
+.wallet-preview {
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    min-width: 400px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-right: 15px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+
+/* width */
+.wallet-preview::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+.wallet-preview::-webkit-scrollbar-track {
+    background: darkgrey;
+    border-radius: 4px;
+  }
+  
+  /* Handle */
+.wallet-preview::-webkit-scrollbar-thumb {
+    background: #eee;
+    border-radius: 4px;
+  }
+
+.wallet-preview-chain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid darkgrey;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.create-wallet-button, .create-wallet-button-active {
+    width: 100%;
+    background-color: rgb(101, 166, 188);
+    border-radius: 6px;
+    padding: 10px 5px;
+    font-size: 18px;
+    color: white;
+    font-family: "Poppins";
+    transition: filter 0.25s ease-in-out;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-code-but {
+    background-color: rgb(208, 218, 221);
+    border-radius: 6px;
+    padding: 5px 5px;
+    font-size: 18px;
+    color: black;
+    font-family: "Poppins";
+    transition: filter 0.25s ease-in-out;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-wallet-button-active {
+    background-color: lightcoral;
+}
+
+.create-wallet-button:hover, .create-wallet-button-active:hover, .qr-code-but:hover {
+    filter: brightness(0.7);
+}
+
+.wallet-preview-chain:hover {
+    filter: brightness(0.7);
+}
+
+
+
+.wallet-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0px 30px 0px 20px;
+    overflow-y: auto;
+    
+}
+
+
+/* width */
+.wallet-card::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+.wallet-card::-webkit-scrollbar-track {
+    background: darkgrey;
+    border-radius: 4px;
+  }
+  
+  /* Handle */
+.wallet-card::-webkit-scrollbar-thumb {
+    background: #eee;
+    border-radius: 4px;
+  }
+
+.wallet-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.wallet-card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.wallets-form-input {
+    background-color: rgb(52, 51, 51);
+    border: 3px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    padding: 3px;
+    color: white;
+    transition: border 0.2s ease-in-out;
+    width: 30%;
+}
+
+.wallets-form-input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 992px) {
+    .available-wallets {
+        padding: 0px 5px;
+    }
+    .create-wallet-button, .create-wallet-button-active {
+        font-size: 14px;
+
+    }
+    .wallet-card {
+        margin-top: 20px
+    }
+    .wallets-form-input {
+        width: 100%;
+        font-size: 14px;
+    }
+    .qr-code-but {
+        margin-left: 10px;
+    }
+    .available-wallets {
+        height: auto;
+        overflow-y: auto;
+    }
+    .wallet-preview {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width: auto;
+        margin-right: 0px;
+    }
+    .wallet-card-info {
+        padding-bottom: 30px;
+    }
+    .wallet-preview-chain {
+        padding: 20px 10px;
+    }
+    
+
+}
+
+@media screen and (max-width: 576px) {
+
+}

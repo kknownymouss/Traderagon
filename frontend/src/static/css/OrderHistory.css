@@ -1,0 +1,20 @@
+.order-history-wrap {
+    min-height: 100vh;
+    background-color: rgb(19, 20, 20);
+    color: white
+}
+
+
+.orders-data {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.orders-nav {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

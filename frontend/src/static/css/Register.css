@@ -1,0 +1,132 @@
+.login-navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+
+.login-navbar-title {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.login-wrap {
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.login-form {
+    margin-left: 80px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.login-form-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.login-form-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px
+}
+
+
+
+.login-form-first-last-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.login-form-input {
+    background-color: rgb(52, 51, 51);
+    border: 3px solid transparent;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    padding: 5px;
+    color: white;
+    transition: border 0.2s ease-in-out;
+    height: 100%;
+    width: 100%;
+}
+
+.login-form-input:focus {
+    outline: none;
+}
+
+.login-form-input-wrap-1 {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    width: 100%;
+}
+
+.login-form-input-wrap {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.login-form-input-wrap label {
+    color: darkgrey
+}
+
+
+
+.login-form-icons {
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0px 10px;
+}
+
+.login-form-submit-buttom {
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: rgb(66, 155, 185);
+    font-family: 'Poppins';
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.login-form-submit-buttom:hover {
+    filter: brightness(0.7);
+}
+
+
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    .login-form-inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%
+    }
+    .login-form {
+        margin-left: 40px;
+        margin-top: 50px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+}
